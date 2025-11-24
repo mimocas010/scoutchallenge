@@ -116,5 +116,7 @@ def root():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
- 
+ # Para Render: não correr app.run()
+# O Render usa o comando 'gunicorn main:app'
+
 
